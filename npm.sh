@@ -9,7 +9,7 @@ if [ -z "$hyp" ]; then
   exit 1
 fi
 
-# ✅ 创建 .mpm 文件夹（如果不存在）
+# ✅ 创建 .npm 文件夹（如果不存在）
 mkdir -p .npm
 cd .npm || exit 1
 
