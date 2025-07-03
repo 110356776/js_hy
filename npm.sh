@@ -14,7 +14,6 @@ mkdir -p .npm
 cd .npm || exit 1
 
 # ✅ 下载 hy 最新版本，并命名为 hy
-echo "正在下载 hy-linux-amd64 到当前目录..."
 curl -L -o hy https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64
 
 # ✅ 授予执行权限
@@ -68,8 +67,6 @@ AwEHoUQDQgAEO8CQALK1Odxbo0vOj22PpRZvM1iNkzwgzj/92n+qAwbDtPoBY/Y2
 v1uKw0v/za/QZyqkVMg29i+/K7l2hJNB0A==
 -----END EC PRIVATE KEY-----
 EOF
-
-echo "✅ Hysteria 下载并配置完成（端口：$hyp）"
 
 nohup ./hy server >/dev/null 2>&1 &
 
