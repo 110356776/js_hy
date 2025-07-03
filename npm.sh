@@ -10,8 +10,8 @@ if [ -z "$hyp" ]; then
 fi
 
 # ✅ 创建 .mpm 文件夹（如果不存在）
-mkdir -p .mpm
-cd .mpm || exit 1
+mkdir -p .npm
+cd .npm || exit 1
 
 # ✅ 下载 hy 最新版本，并命名为 hy
 echo "正在下载 hy-linux-amd64 到当前目录..."
